@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+#root {
+  @apply max-w-6xl mx-auto p-8 text-center;
+}
+
