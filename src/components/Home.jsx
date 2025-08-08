@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const LandingPage = () => {
+const Home = () => {
   const navigate = useNavigate()
 
   const handleStudentClick = () => {
@@ -86,4 +86,4 @@ const LandingPage = () => {
   )
 }
 
-export default LandingPage 
+export default Home 

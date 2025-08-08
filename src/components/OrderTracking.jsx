@@ -198,7 +198,7 @@ const OrderTracking = ({ orders }) => {
                     </div>
                   </div>
                   
-                  <div className="text-left sm:text-right w-full sm:w-auto mt-2 sm:mt-0 flex flex-row sm:flex-col items-center sm:items-end gap-2 sm:gap-0">
+                  <div className="text-left sm:text-right w-full  mt-2 sm:mt-0 flex flex-row sm:flex-col items-center sm:items-end gap-2 sm:gap-0">
                     <span className={`inline-flex items-center px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${getStatusColor(order.status)}`}>
                       {getStatusIcon(order.status)}
                       <span className="ml-1">{order.status}</span>
